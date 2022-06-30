@@ -1,6 +1,13 @@
 import {SignUpController} from "./signup"
 
-describe('Nome do componente - SignUP Controller', () =>{
+/**
+ * TESTE 01
+ * VALIDAÇÕES DO RETURN
+ * SE EXISTE O RETORNO 400
+ * SE EXISTE O BODY
+ */
+
+describe('TESTE 01 - Nome do componente - SignUP Controller', () =>{
   test('Should return 400 if not name is provided', () =>{
     // sut - sistem undent test
     const sut = new SignUpController()
